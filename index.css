@@ -31,5 +31,14 @@ body {
 	flex-grow: 0;
 	font-weight: 600;
 	box-sizing: border-box;
+	transition: all .1s ease-out;
+
+}
+
+.active_press {
+
+	background-color: black;
+	color: white;
+	transform: scale(1.1);
 
 }
